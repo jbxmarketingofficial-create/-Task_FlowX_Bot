@@ -47,15 +47,15 @@ async def get_system_date(task_type=None):
 # ---------------------------------------------------------
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token_here")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "8375006707"))
-CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/+CeAs07N2gGM4MTY1")
+BOT_TOKEN = os.getenv("8991518782:AAEVHvPQX6vypbZi-g-zFnKrYgfxhxxzbkE")
+ADMIN_ID = int(os.getenv("ADMIN_ID", "7005676504"))
+CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/Jbx_Marketing")
 CHANNEL_ID_STR = os.getenv("CHANNEL_ID", "")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "goTaskpaybot")
-BOT_NAME = os.getenv("BOT_NAME", "GoTask Pay")
-MONGO_URI = os.getenv("MONGO_URI", "")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "@Task_FlowX_Bot")
+BOT_NAME = os.getenv("BOT_NAME", "Task Flow X")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Task_FlowX_Bot:<db_password>@cluster0.7gqwnvi.mongodb.net/?appName=Cluster0")
 mongo_client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URI)
-db = mongo_client['gotaskpay']
+db = mongo_client['Task_FlowX_Bot']
 
 CHANNEL_ID = None
 
