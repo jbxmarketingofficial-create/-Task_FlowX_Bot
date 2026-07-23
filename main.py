@@ -41,13 +41,7 @@ async def get_system_date(task_type=None):
     if manual_date:
         return manual_date
     return (datetime.utcnow() + timedelta(hours=6)).strftime("%Y-%m-%d")
-
-# ---------------------------------------------------------
-# CONFIGURATION
-# ---------------------------------------------------------
-load_dotenv()
-
--------------------------------------------
+# -------------------------------------------------
 # CONFIGURATION
 # --------------------------------------------------
 load_dotenv()
