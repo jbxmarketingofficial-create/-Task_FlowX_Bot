@@ -47,7 +47,7 @@ async def get_system_date(task_type=None):
 # ---------------------------------------------------------
 load_dotenv()
 
-BOT_TOKEN = os.getenv("8991518782:AAEVHvPQX6vypbZi-g-zFnKrYgfxhxxzbkE")
+BOT_TOKEN = os.getenv("8991518782:AAGWIccOjhjaTrmCLNWiMCEET_urQ1o-uWA")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "7005676504"))
 CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/Jbx_Marketing")
 CHANNEL_ID_STR = os.getenv("CHANNEL_ID", "")
