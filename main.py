@@ -53,7 +53,7 @@ CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/Jbx_Marketing")
 CHANNEL_ID_STR = os.getenv("CHANNEL_ID", "")
 BOT_USERNAME = os.getenv("BOT_USERNAME", "@Task_FlowX_Bot")
 BOT_NAME = os.getenv("BOT_NAME", "Task Flow X")
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Task_FlowX_Bot:<db_password>@cluster0.7gqwnvi.mongodb.net/?appName=Cluster0")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Task_FlowX_Bot:<Jibon91>@cluster0.7gqwnvi.mongodb.net/?appName=Cluster0")
 mongo_client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URI)
 db = mongo_client['Task_FlowX_Bot']
 
